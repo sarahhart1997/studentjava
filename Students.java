@@ -1,7 +1,12 @@
 public class Students
 {
+    // Attributes of this class 
+    int id;
+    String name;
+    // Type: to go to Remote or in Person Student
+
     // Constructor with 3 Parameters
-    Constructor(id, name, type){
+    Students(id, name, type){
         System.out.printIn("student constructor");
     }
 }
