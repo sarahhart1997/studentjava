@@ -7,6 +7,13 @@ public class Students
 
     // Constructor with 3 Parameters
     Students(id, name, type){
+        // connecting constructor to above?
+        this.id = id;
+        this.name = name;
+        this.type = type;
         System.out.printIn("student constructor");
     }
+
+    //Main Driver Method
+    //Main Driver Method.java?
 }
