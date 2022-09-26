@@ -16,8 +16,5 @@ public class Students
     // A generic method score() will be a part of this class and 
     // will be implimented in inherited classes.
     score(){
-
     }
-    //Main Driver Method?
-    //Main Driver Method javaProgramming.java?
 }
