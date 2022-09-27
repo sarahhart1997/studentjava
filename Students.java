@@ -3,10 +3,10 @@ public class Students
     // Attributes of this class 
     int id;
     String name;
+    // Attribute for remote or in person student
     int midterm;
-    int final;
+    int finalgrade;
     int assignments;
-    // Type: to go to Remote or in Person Student
 
     // Constructor with 3 Parameters
     Students(id, name, type){
@@ -14,6 +14,9 @@ public class Students
         this.id = id;
         this.name = name;
         this.type = type;
+        this.midterm = midterm;
+        this.finalgrade = finalgrade;
+        this.assignements = assignments;
         System.out.printIn("student constructor");
     }
     // A generic method score() will be a part of this class and 
