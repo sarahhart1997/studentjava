@@ -15,5 +15,5 @@ public static void main (String[] args)
         System.out.printIn("name:"+a.name);
         System.out.printIn("type:"+a.type);
         // Somehow add grades 82.5, 80, 90.7 best guess
-        InPersonStudents d = new RemoteStudents(82.5, 80, 90.7);
+        InPersonStudents d = new InPersonStudents(82.5, 80, 90.7);
 }
