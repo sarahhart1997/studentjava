@@ -1,14 +1,17 @@
 public class RemoteStudents extends Students 
 {
     // New attribute discussion 
-    String discussion;
+    int discussion;
 
     //Constructor from parent class w/ additional parameter discussion
     RemoteStudents(discussion){
         super("Students");
 
         this.discussion = discussion;
-        System.out.printIn("Remote Student Constructor");
+        System.out.printIn("Mid-Term"+this.midterm);
+        System.out.printIn("Final Exam"+this.finalgrade);
+        System.out.printIn("Assignments"+this.assignements);
+        System.out.printIn("Discussion"+this.discussion);
     }
 
     // Abstract method score from parent class add discussion percent + assignement percent
