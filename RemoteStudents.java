@@ -11,5 +11,5 @@ public class RemoteStudents extends Students
     }
 
     // Abstract method score from parent class
-
+    
 }

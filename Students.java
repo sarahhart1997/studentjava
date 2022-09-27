@@ -3,6 +3,9 @@ public class Students
     // Attributes of this class 
     int id;
     String name;
+    int midterm;
+    int final;
+    int assignments;
     // Type: to go to Remote or in Person Student
 
     // Constructor with 3 Parameters
@@ -16,5 +19,6 @@ public class Students
     // A generic method score() will be a part of this class and 
     // will be implimented in inherited classes.
     score(){
+        // Midterm and Final Scores for 30 % of the grade
     }
 }
