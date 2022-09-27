@@ -21,7 +21,7 @@ public class Students
     }
     // A generic method score() will be a part of this class and 
     // will be implimented in inherited classes.
-    score(){
+    abstract void score(){
         // Midterm and Final Scores for 30 % of the grade
     }
 }
