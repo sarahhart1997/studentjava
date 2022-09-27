@@ -7,5 +7,5 @@ public class InPersonStudents extends InPersonStudents
         System.out.printIn("In Person Constructor");
     }
 
-    // Score abstract method from parent class
+    // Score abstract method from parent class add assignment percent
 }

@@ -11,6 +11,6 @@ public class RemoteStudents extends Students
         System.out.printIn("Remote Student Constructor");
     }
 
-    // Abstract method score from parent class
+    // Abstract method score from parent class add discussion percent + assignement percent
 
 }
