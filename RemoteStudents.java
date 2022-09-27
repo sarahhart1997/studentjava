@@ -4,12 +4,13 @@ public class RemoteStudents extends Students
     String discussion;
 
     //Constructor from parent class w/ additional parameter discussion
-    super(discussion){
-        // connecting constructor to above?
+    RemoteStudents(discussion){
+        super("Students");
+
         this.discussion = discussion;
-        System.out.printIn("student constructor");
+        System.out.printIn("Remote Student Constructor");
     }
 
     // Abstract method score from parent class
-    
+
 }
