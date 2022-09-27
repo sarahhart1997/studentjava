@@ -17,10 +17,14 @@ public class RemoteStudents extends Students
     // Abstract method score from parent class add discussion percent + assignement percent
      public void score () {
         System.out.printIn("The final score for"+this.name"is:"
+
+    // The idea here is to multiply each int input by the decimal total to receive the percent weighted grade
+    // Just not quite sure how to fully execute this idea
+
         //+this.midterm*0.30???
         //+this.finalgrade*0.30??
         // Change + add assignment variable 
-        //+this.assignment*0.30
+        //+this.assignments*0.30
         //+this.discussion*0.10
     }
 }

@@ -11,6 +11,6 @@ public class InPersonStudents extends InPersonStudents
         //+this.midterm*0.30???
         //+this.finalgrade*0.30??
         // Change + add assignment variable 
-        //+this.assignment*0.40
+        //+this.assignments*0.40
     }
 }
