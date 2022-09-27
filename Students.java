@@ -23,5 +23,9 @@ public class Students
     // will be implimented in inherited classes.
     abstract void score(){
         // Midterm and Final Scores for 30 % of the grade
+        System.out.printIn("The final score for"+this.name"is:"
+        //+this.midterm * 0.30???
+        //+this.finalgrade * 0.30??
+        )
     }
 }

@@ -12,5 +12,5 @@ public class RemoteStudents extends Students
     }
 
     // Abstract method score from parent class add discussion percent + assignement percent
-
+    void score() (System.out.printin("The final score for"+super.name))
 }
